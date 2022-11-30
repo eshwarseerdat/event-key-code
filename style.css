@@ -2,4 +2,45 @@
 
 body {
   font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f2c5ba;
+  color: #587369;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+}
+
+main {
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+  gap: 0.5rem 3rem;
+}
+
+main div {
+  /* border: 1px solid black; */
+  padding: 1rem;
+  background-color: #bbf2de;
+  border-radius: 5px;
+}
+
+main div h3 {
+  border-bottom: 2px solid #587369;
+  margin-bottom: 1rem;
+  padding-bottom: 0.51rem;
+  font-size: 1.5rem;
+}
+
+main div p {
+  font-size: 1.3rem;
 }
